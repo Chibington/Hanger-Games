@@ -1,16 +1,11 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-#include "HangerGames.h"
 #include "ChooseNextWaypoint.h"
+#include "HangerGames.h"
 #include "BehaviorTree/BlackboardComponent.h"
 
 
-
-
-
-
-
-
+/*
 EBTNodeResult::Type UChooseNextWaypoint::ExecuteTask(UBehaviorTreeComponent & OwnerComp, uint8 * NodeMemory)
 {
 	
@@ -21,4 +16,6 @@ EBTNodeResult::Type UChooseNextWaypoint::ExecuteTask(UBehaviorTreeComponent & Ow
 	UE_LOG(LogTemp, Warning, TEXT("Waypoint index: %i"), Index);
 
 	return EBTNodeResult::Succeeded;
+	
 }
+*/
