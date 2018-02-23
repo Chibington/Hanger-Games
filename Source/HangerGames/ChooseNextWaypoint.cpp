@@ -5,6 +5,16 @@
 #include "BehaviorTree/BlackboardComponent.h"
 
 
+
+
+EBTNodeResult::Type UChooseNextWaypoint::ExecuteTask(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory)
+{
+
+	UE_LOG(LogTemp, Warning, TEXT(" "));
+	return EBTNodeResult::Succeeded;
+
+}
+
 /*
 EBTNodeResult::Type UChooseNextWaypoint::ExecuteTask(UBehaviorTreeComponent & OwnerComp, uint8 * NodeMemory)
 {
