@@ -18,7 +18,7 @@ public:
 	TArray<AActor*> GetPatrolPoint() const;
 
 private:
-	UPROPERTY(EditInstanceOnly, Category = "Patrol Route")
+	UPROPERTY(EditAnywhere, Category = "Patrol Route")
 		TArray<AActor*> PatrolPoints;
 
 
