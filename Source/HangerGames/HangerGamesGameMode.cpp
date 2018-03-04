@@ -2,14 +2,14 @@
 
 #include "HangerGamesGameMode.h"
 #include "HangerGamesHUD.h"
-#include "HangerGamesCharacter.h"
+#include "Player/HangerGamesCharacter.h"
 #include "UObject/ConstructorHelpers.h"
 
 AHangerGamesGameMode::AHangerGamesGameMode()
 	: Super()
 {
 	// set default pawn class to our Blueprinted character
-	static ConstructorHelpers::FClassFinder<APawn> PlayerPawnClassFinder(TEXT("/Game/FirstPersonCPP/Blueprints/FirstPersonCharacter"));
+	static ConstructorHelpers::FClassFinder<APawn> PlayerPawnClassFinder(TEXT("/Game/FirstPerson/Behavior/FirstPersonCharacter"));
 	DefaultPawnClass = PlayerPawnClassFinder.Class;
 
 	// use our custom HUD class
